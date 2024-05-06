@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic-embed-c", "basic-embe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic-embed-c++", "basic-embed-c++\basic-embed-c++.vcxproj", "{2E1C43DE-15A7-47E0-92B3-3E897BBE7EBE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "data-in-out-of-script", "data-in-out-of-script\data-in-out-of-script.vcxproj", "{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{2E1C43DE-15A7-47E0-92B3-3E897BBE7EBE}.Release|x64.Build.0 = Release|x64
 		{2E1C43DE-15A7-47E0-92B3-3E897BBE7EBE}.Release|x86.ActiveCfg = Release|Win32
 		{2E1C43DE-15A7-47E0-92B3-3E897BBE7EBE}.Release|x86.Build.0 = Release|Win32
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Debug|x64.ActiveCfg = Debug|x64
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Debug|x64.Build.0 = Debug|x64
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Debug|x86.ActiveCfg = Debug|Win32
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Debug|x86.Build.0 = Debug|Win32
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Release|x64.ActiveCfg = Release|x64
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Release|x64.Build.0 = Release|x64
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Release|x86.ActiveCfg = Release|Win32
+		{824E7CD1-E0F9-4D68-820E-7F997A0BCC2D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

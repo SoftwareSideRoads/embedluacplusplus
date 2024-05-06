@@ -20,15 +20,20 @@ int main()
 	err = luaL_loadbuffer(L, sample.c_str(), sample.length(), "mysample");
 	if (err) {
 		printf("Error initializing lua with hello world script: %i", err);
+		std::cout << lua_tostring(L, -1) << "\n"; //the detailed error string
+		lua_close(L);
 		return(0);
 	}
 
 	err = lua_pcall(L, 0, 0, 0);
 	if (err) {
 		printf("Error running lua hello world script: %i", err);
+		std::cout << lua_tostring(L, -1) << "\n"; //the detailed error string
+		lua_close(L);
 		return(0);
 	}
 
 	printf("Success running hello world script\n");
+	lua_close(L);
 	return(0);
 }
